@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT-APP</title>
+    <style>
+        body {
+            background-image: url(pexels.jpg)
+        }
+
+        .h1 {
+            font-size: 20px;
+            color: #1667dc;
+        }
+
+        .header {
+            border: 5px outset #f1f1f1;
+            background: #5e95e4;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-size: 10px;
+            height: 2v;
+        }
+
+        .student {
+            height: 100%;
+        }
+
+        .form {
+            float: left;
+            padding: 10px;
+            width: 100%;
+            background-color: #f1f1f1;
+            height: 300px;
+            /* only for demonstration, should be removed */
+        }
+
+        .table,
+        th,
+        td {
+            width: 800px;
+            margin: auto;
+            font: 30px;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #000
+        }
+        
+        ul{
+            color: #5e95e4;
+            background-color: #000;
+        }
+
+
+        .footer {
+            padding: 10px;
+            background-color: #5e95e4;
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            border: 5px outset #ffffff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 2vh;
+        }
+        .city{
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>app</h1>
+    </div>
+    <div class="Student-app">
+
+        <h3>Registration form</h3>
+        <form>
+            <label for="email">EMAIL</label><br>
+            <input type="email"><br>
+            <label for="first_name">FIRST NAME</label><br>
+            <strong><input type="first_name" maxlength="10"></strong><br>
+            <em><label for="last_name">LASTNAME</label></em><br>
+            <input type="last_name" maxlength="15"><br>
+            <label for="number">AGE</label><br>
+            <input type="number" min="18" max="35"><br>
+            <button>SAVE</button><br>
+        </form>
+
+    </div>
+    <div class="table">
+        <table>
+        <thead>
+            <tr>
+                <th>firstname</th>
+                <th>Last name</th>
+                <th>City</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Netanel</td>
+                <td>Yaso</td>
+                <td>Rehovot</td>
+                <td>NetanelYaso@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Dalia</td>
+                <td>zegaya</td>
+                <td>Rosh Ha AYIN</td>
+                <td>Dalya@gmal.com</td>
+            </tr>
+            <tr>
+                <td>Or</td>
+                <td>Gedamu</td>
+                <td>Rehovot</td>
+                <td>Or@GMAIL.COM</td>
+            </tr>
+            <tr>
+                <td>Netanel</td>
+                <td>Taspay</td>
+                <td>Rehovot</td>
+                <td>Netanel@rehovot.com</td>
+            </tr>
+            <tr>
+                <td>Natn</td>
+                <td>Baly</td>
+                <td>Rehovot</td>
+                <td>Natan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Hen</td>
+                <td>Samo</td>
+                <td>Reshon letzion</td>
+                <td>Hen@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Yonhatn</td>
+                <td>Yetzhak</td>
+                <td>Rehovot</td>
+                <td>Yonatan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Gadmo</td>
+                <td>Reshon letzion</td>
+                <td>Daniel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Aviel</td>
+                <td>Taka</td>
+                <td>Rehovot</td>
+                <td>Aviel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Malada</td>
+                <td>Rehovot</td>
+                <td>Danelmal@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Yosi</td>
+                <td>Tesphaun Balchow</td>
+                <td>Reshon letzion</td>
+            </tr>
+            <tr>
+                <td>eldad</td>
+                <td>Brahnu</td>
+                <td>Afula</td>
+                <td>Eldad@gmail.com</td>
+            </tr>
+            <tr>
+                <td>YEHUDA</td>
+                <td>sENAY</td>
+                <td>rESHON LETZION</td>
+                <td>Yehuda@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Solomon</td>
+                <td>Avrham</td>
+                <td>Hdera</td>
+                <td>Solom@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Bat-el</td>
+                <td>Hailu</td>
+                <td>Rehovot</td>
+                <td>batel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Znavo</td>
+                <td>Radey</td>
+                <td>Reshon letzion</td>
+                <td>Zanavo@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Lior</td>
+                <td>Dawit</td>
+                <td>Reshon letzion</td>
+                <td>Lior@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Shlomo</td>
+                <td>hailu</td>
+                <td>Kriat malhi</td>
+                <td>Shlomohil@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Shimon</td>
+                <td>Bery</td>
+                <td>Kriat malhi</td>
+                <td>Shimon@gmil.com</td>
+            </tr>
+            <tr>
+                <td>Abyneh</td>
+                <td>Abi</td>
+                <td>Hifa</td>
+                <td>Abineh@gmail.com</td>
+            </tr>
+            <tr>
+                <td>sara</td>
+                <td>likunt</td>
+                <td>Natnya</td>
+                <td>Saralik@gmail.com</td>
+            </tr>
+            <tr>
+                <td>ran</td>
+                <td>Gedamu</td>
+                <td>Natnya</td>
+                <td>RAn@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Edan</td>
+                <td>Akal</td>
+                <td>Rehovot</td>
+                <td>Idan@gmil.com</td>
+            </tr>
+            <tr>
+                <td>Lior</td>
+                <td>Aitegev</td>
+                <td>Ashkelon</td>
+                <td>Lior@gmail.com</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <ol>
+        <div class="city"><li>Rehovot</li></div>
+        <ul>Rishon Letzion</ul>
+        <ul>Ashkelon</ul>
+        <ul>Afula</ul>
+        <ul>Natnya</ul>
+        <ul>Hifa</ul>
+    </ol>
+    
+    <ol>
+        <div class="city"><li>Rehovot</li></div>
+        <ul>Yontan Itzhak</ul>
+        <ul>Yossi Blachw</ul>
+        <ul>batel Hilu</ul>
+       
+    </ol>
+    
+    <ol>
+        <div class="city"><li>Kriat gat</li></div>
+        <ul>Shlomo hilo</ul>
+        <ul>Shimon bry</ul>
+    </ol>
+   
+    <ol>
+        <div class="city"><li>Reshon letzion</li></div>
+        <ul>hen samo</ul>
+        <ul>Lior dawit</ul>
+        <ul>Aviel taka</ul>
+    </ol>
+    <ol>
+        <div class="city"><li>Kfar Yona</li>
+        <ul>Ran Gedamo</ul>
+    </ol>
+    <ol>
+        <div class="city"><li>hifa</li>
+        <ul>Abyneh</ul>
+    </ol>
+    <ol>
+        <div class="city"><li>Hedra</li>
+        <ul>Salmon Avrahm</ul>
+    </ol>
+    <ol>
+        <div class="city"><li>Afula</li>
+        <ul>Eladad Brahnu</ul>
+    </ol>
+    <ol>
+        <div class="city"><li>jerusalem</li>
+        <ul>Yaso Malko</ul>
+        <ul>Daniel Malada</ul>
+    </ol>
+    <div class="footer">
+        <h1>&copy; Copyright Reserved.</h1>
+    </div><br>
+
+</body>
+
+</html>
